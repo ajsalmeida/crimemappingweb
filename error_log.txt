@@ -1,0 +1,271 @@
+[30-Aug-2016 10:10:56 America/Sao_Paulo] PHP Notice:  Undefined index: email in /var/www/html/buraconao/login.php on line 24
+[30-Aug-2016 10:10:56 America/Sao_Paulo] PHP Notice:  Undefined index: password in /var/www/html/buraconao/login.php on line 25
+[30-Aug-2016 10:22:11 America/Sao_Paulo] PHP Notice:  Undefined index: senha in /var/www/html/buraconao/login.php on line 25
+[30-Aug-2016 10:23:39 America/Sao_Paulo] PHP Notice:  Undefined index: senha in /var/www/html/buraconao/login.php on line 25
+[30-Aug-2016 10:24:41 America/Sao_Paulo] PHP Notice:  Undefined index: senha in /var/www/html/buraconao/login.php on line 25
+[30-Aug-2016 10:29:34 America/Sao_Paulo] PHP Notice:  Use of undefined constant cu - assumed 'cu' in /var/www/html/buraconao/login.php on line 29
+[30-Aug-2016 10:38:52 America/Sao_Paulo] PHP Notice:  Undefined index: senha in /var/www/html/buraconao/login.php on line 24
+[30-Aug-2016 10:39:01 America/Sao_Paulo] PHP Notice:  Undefined index: senha in /var/www/html/buraconao/login.php on line 24
+[30-Aug-2016 10:40:00 America/Sao_Paulo] PHP Notice:  Undefined index: senha in /var/www/html/buraconao/login.php on line 24
+[30-Aug-2016 10:40:05 America/Sao_Paulo] PHP Notice:  Undefined index: senha in /var/www/html/buraconao/login.php on line 24
+[30-Aug-2016 10:44:05 America/Sao_Paulo] PHP Notice:  Undefined index: senha in /var/www/html/buraconao/login.php on line 24
+[30-Aug-2016 10:44:45 America/Sao_Paulo] PHP Notice:  Undefined index: senha in /var/www/html/buraconao/login.php on line 12
+[30-Aug-2016 10:44:49 America/Sao_Paulo] PHP Notice:  Undefined index: senha in /var/www/html/buraconao/login.php on line 12
+[30-Aug-2016 10:52:48 America/Sao_Paulo] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /var/www/html/buraconao/login.php on line 10
+[30-Aug-2016 10:52:53 America/Sao_Paulo] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /var/www/html/buraconao/login.php on line 10
+[30-Aug-2016 11:14:42 America/Sao_Paulo] PHP Notice:  Undefined index: email in /var/www/html/buraconao/login.php on line 21
+[30-Aug-2016 14:27:56 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/holeReport.php on line 21
+[31-Aug-2016 11:28:47 America/Sao_Paulo] PHP Notice:  Undefined index: lat in /var/www/html/buraconao/cadastraBuraco.php on line 21
+[31-Aug-2016 11:28:47 America/Sao_Paulo] PHP Notice:  Undefined index: lng in /var/www/html/buraconao/cadastraBuraco.php on line 22
+[31-Aug-2016 13:55:36 America/Sao_Paulo] PHP Notice:  Undefined index: radio in /var/www/html/buraconao/cadastraBuraco.php on line 22
+[31-Aug-2016 13:55:49 America/Sao_Paulo] PHP Notice:  Undefined index: radio in /var/www/html/buraconao/cadastraBuraco.php on line 22
+[31-Aug-2016 16:16:12 America/Sao_Paulo] PHP Notice:  Undefined index: radio in /var/www/html/buraconao/cadastraBuraco.php on line 23
+[31-Aug-2016 16:17:27 America/Sao_Paulo] PHP Notice:  Undefined index: radio in /var/www/html/buraconao/cadastraBuraco.php on line 23
+[31-Aug-2016 16:17:34 America/Sao_Paulo] PHP Notice:  Undefined index: radio in /var/www/html/buraconao/cadastraBuraco.php on line 23
+[01-Sep-2016 14:10:50 America/Sao_Paulo] PHP Notice:  Undefined index: lat in /var/www/html/buraconao/cadastraBuraco.php on line 23
+[01-Sep-2016 14:10:53 America/Sao_Paulo] PHP Notice:  Undefined index: lat in /var/www/html/buraconao/cadastraBuraco.php on line 23
+[02-Sep-2016 14:18:45 America/Sao_Paulo] PHP Warning:  date() expects at least 1 parameter, 0 given in /var/www/html/buraconao/cadastraBuraco.php on line 33
+[02-Sep-2016 14:29:27 America/Sao_Paulo] PHP Notice:  Undefined variable: lines in /var/www/html/buraconao/cadastraBuraco.php on line 40
+[02-Sep-2016 14:29:27 America/Sao_Paulo] PHP Warning:  implode(): Invalid arguments passed in /var/www/html/buraconao/cadastraBuraco.php on line 40
+[05-Sep-2016 08:38:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:15
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jos\xC3\xA9 A...', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:40:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:15
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jos\xC3\xA9 A...', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:42:06 America/Sao_Paulo] PHP Notice:  Use of undefined constant this - assumed 'this' in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:42:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:15
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jos\xC3\xA9 A...', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:43:57 America/Sao_Paulo] PHP Notice:  Use of undefined constant this - assumed 'this' in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:43:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:15
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jos\xC3\xA9 A...', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:44:50 America/Sao_Paulo] PHP Notice:  Use of undefined constant this - assumed 'this' in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:44:50 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:15
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jos\xC3\xA9 A...', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:44:59 America/Sao_Paulo] PHP Notice:  Use of undefined constant this - assumed 'this' in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:44:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:15
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jos\xC3\xA9 A...', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:45:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:15
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Almeida', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:48:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/buraconao/mysqlConnect.php:15
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jose Al...', 'ajsalmeida@hotm...', 'ajsalmeida@hotm...', 'QWE123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:50:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/buraconao/mysqlConnect.php:15
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jose Al...', 'ajsalmeida@hotm...', 'ajsalmeida@hotm...', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:51:03 America/Sao_Paulo] PHP Notice:  Undefined variable: this in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:51:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /var/www/html/buraconao/mysqlConnect.php:15
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jose Al...', 'ajsalmeida@hotm...', 'ajsalmeida@hotm...', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 15
+[05-Sep-2016 08:51:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:16
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jose Al...', 'ajsalmeida@hotm...', 'ajsalmeida@hotm...', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 16
+[05-Sep-2016 08:59:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:16
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jose Al...', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 16
+[05-Sep-2016 09:00:12 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/buraconao/signup.php on line 22
+[05-Sep-2016 09:01:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:16
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jos\xC3\xA9 A...', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 16
+[05-Sep-2016 09:02:25 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$realizaOperacao' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/html/buraconao/mysqlConnect.php on line 9
+[05-Sep-2016 09:02:52 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$realizaOperacao' (T_VARIABLE), expecting function (T_FUNCTION) in /var/www/html/buraconao/mysqlConnect.php on line 9
+[05-Sep-2016 09:03:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:17
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jos\xC3\xA9 A...', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 17
+[05-Sep-2016 09:04:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:17
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jos\xC3\xA9 A...', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 17
+[05-Sep-2016 09:04:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:17
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jos\xC3\xA9 A...', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 17
+[05-Sep-2016 09:05:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:17
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jos\xC3\xA9 A...', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 17
+[05-Sep-2016 09:06:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:18
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jos\xC3\xA9 A...', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 18
+[05-Sep-2016 09:08:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function fazOperacao() in /var/www/html/buraconao/mysqlConnect.php:16
+Stack trace:
+#0 /var/www/html/buraconao/signup.php(30): bancoDeDados::conectaBancoDeDados('Antonio Jos\xC3\xA9 A...', 'ajsalmeida@hotm...', 'ajsalmeida', 'qwe123', 1)
+#1 {main}
+  thrown in /var/www/html/buraconao/mysqlConnect.php on line 16
+[05-Sep-2016 09:09:09 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/buraconao/realizaOperacao.php on line 22
+[05-Sep-2016 09:10:45 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/buraconao/realizaOperacao.php on line 22
+[05-Sep-2016 09:12:27 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/buraconao/realizaOperacao.php on line 22
+[05-Sep-2016 09:14:36 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/buraconao/realizaOperacao.php on line 22
+[05-Sep-2016 09:15:46 America/Sao_Paulo] PHP Notice:  Undefined property: PDO::$prepare in /var/www/html/buraconao/realizaOperacao.php on line 16
+[05-Sep-2016 09:17:23 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$con' (T_VARIABLE), expecting ',' or ';' in /var/www/html/buraconao/realizaOperacao.php on line 12
+[05-Sep-2016 09:20:34 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/buraconao/realizaOperacao.php on line 22
+[05-Sep-2016 09:25:01 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ':' in /var/www/html/buraconao/realizaOperacao.php on line 16
+[05-Sep-2016 15:26:17 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/buraconao/signup.php on line 22
+[05-Sep-2016 15:26:48 America/Sao_Paulo] PHP Notice:  Undefined variable: tabela in /var/www/html/buraconao/mysqlConnect.php on line 20
+[05-Sep-2016 16:18:00 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/mysqlConnect.php on line 14
+[05-Sep-2016 16:37:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function request_once() in /var/www/html/buraconao/cadastraBuraco.php:20
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/buraconao/cadastraBuraco.php on line 20
+[05-Sep-2016 17:01:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function request_once() in /var/www/html/buraconao/cadastraBuraco.php:20
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/buraconao/cadastraBuraco.php on line 20
+[05-Sep-2016 17:04:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function request_once() in /var/www/html/buraconao/cadastraBuraco.php:20
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/buraconao/cadastraBuraco.php on line 20
+[06-Sep-2016 08:27:56 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/mysqlConnect.php on line 14
+[06-Sep-2016 08:36:15 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/index.php on line 33
+[06-Sep-2016 13:52:54 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/index.php on line 34
+[06-Sep-2016 13:53:22 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/index.php on line 34
+[06-Sep-2016 14:01:21 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /var/www/html/buraconao/sessaoControlador.php on line 2
+[06-Sep-2016 14:02:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function iniciaSessao() in /var/www/html/buraconao/login.php:36
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/buraconao/login.php on line 36
+[06-Sep-2016 14:03:03 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:10:35 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/index.php on line 2
+[06-Sep-2016 14:11:27 America/Sao_Paulo] PHP Notice:  Undefined index: lat in /var/www/html/buraconao/cadastraBuraco.php on line 24
+[06-Sep-2016 14:11:38 America/Sao_Paulo] PHP Notice:  Undefined index: lat in /var/www/html/buraconao/cadastraBuraco.php on line 24
+[06-Sep-2016 14:11:50 America/Sao_Paulo] PHP Notice:  Undefined index: lat in /var/www/html/buraconao/cadastraBuraco.php on line 24
+[06-Sep-2016 14:14:59 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:15:29 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:16:21 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:17:42 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:18:45 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:39:40 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/sessaoControlador.php on line 9
+[06-Sep-2016 14:40:24 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/sessaoControlador.php on line 9
+[06-Sep-2016 14:40:24 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/index.php on line 35
+[06-Sep-2016 14:40:24 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/index.php on line 43
+[06-Sep-2016 14:40:24 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/buraconao/index.php:114) in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:40:24 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/buraconao/index.php:114) in /var/www/html/buraconao/login.php on line 39
+[06-Sep-2016 14:42:20 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/sessaoControlador.php on line 9
+[06-Sep-2016 14:42:20 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/index.php on line 35
+[06-Sep-2016 14:42:20 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/index.php on line 43
+[06-Sep-2016 14:42:20 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/buraconao/index.php:114) in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:42:20 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/buraconao/index.php:114) in /var/www/html/buraconao/login.php on line 39
+[06-Sep-2016 14:45:05 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/sessaoControlador.php on line 9
+[06-Sep-2016 14:45:05 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/index.php on line 35
+[06-Sep-2016 14:45:05 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/index.php on line 48
+[06-Sep-2016 14:45:05 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/buraconao/index.php:119) in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:45:05 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/buraconao/index.php:119) in /var/www/html/buraconao/login.php on line 39
+[06-Sep-2016 14:45:51 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/sessaoControlador.php on line 9
+[06-Sep-2016 14:45:51 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/index.php on line 35
+[06-Sep-2016 14:45:51 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/index.php on line 48
+[06-Sep-2016 14:45:51 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/buraconao/index.php:119) in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:45:51 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/buraconao/index.php:119) in /var/www/html/buraconao/login.php on line 39
+[06-Sep-2016 14:47:06 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/sessaoControlador.php on line 9
+[06-Sep-2016 14:47:06 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/index.php on line 46
+[06-Sep-2016 14:47:06 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/buraconao/index.php:117) in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:47:06 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/buraconao/index.php:117) in /var/www/html/buraconao/login.php on line 39
+[06-Sep-2016 14:47:53 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/index.php on line 46
+[06-Sep-2016 14:47:53 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/buraconao/index.php:117) in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:47:53 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/buraconao/index.php:117) in /var/www/html/buraconao/login.php on line 39
+[06-Sep-2016 14:49:32 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/index.php on line 48
+[06-Sep-2016 14:49:32 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/buraconao/index.php:119) in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:49:32 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/buraconao/index.php:119) in /var/www/html/buraconao/login.php on line 39
+[06-Sep-2016 14:49:50 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/index.php on line 56
+[06-Sep-2016 14:49:50 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/buraconao/index.php:119) in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:49:50 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/buraconao/index.php:119) in /var/www/html/buraconao/login.php on line 39
+[06-Sep-2016 14:51:32 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/buraconao/index.php:119) in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:51:32 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/buraconao/index.php:119) in /var/www/html/buraconao/login.php on line 39
+[06-Sep-2016 14:52:09 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /var/www/html/buraconao/index.php:119) in /var/www/html/buraconao/sessaoControlador.php on line 4
+[06-Sep-2016 14:52:09 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/buraconao/index.php:119) in /var/www/html/buraconao/login.php on line 39
+[06-Sep-2016 15:03:05 America/Sao_Paulo] PHP Warning:  require_once(/var/www/html/buraconao/sessaoControlador.php): failed to open stream: No such file or directory in /var/www/html/buraconao/login.php on line 20
+[06-Sep-2016 15:03:05 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/buraconao/sessaoControlador.php' (include_path='.:/usr/share/php') in /var/www/html/buraconao/login.php on line 20
+[06-Sep-2016 15:04:49 America/Sao_Paulo] PHP Warning:  include(location:index.php): failed to open stream: No such file or directory in /var/www/html/buraconao/login.php on line 36
+[06-Sep-2016 15:04:49 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'location:index.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/buraconao/login.php on line 36
+[06-Sep-2016 15:06:45 America/Sao_Paulo] PHP Warning:  include(index.php?msg=sucessoReport): failed to open stream: No such file or directory in /var/www/html/buraconao/mysqlConnect.php on line 120
+[06-Sep-2016 15:06:45 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'index.php?msg=sucessoReport' for inclusion (include_path='.:/usr/share/php') in /var/www/html/buraconao/mysqlConnect.php on line 120
+[06-Sep-2016 15:10:08 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/index.php on line 47
+[06-Sep-2016 15:12:20 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/index.php on line 47
+[06-Sep-2016 15:13:57 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/index.php on line 47
+[06-Sep-2016 15:27:00 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/index.php on line 58
+[06-Sep-2016 15:32:29 America/Sao_Paulo] PHP Warning:  session_start() expects parameter 1 to be array, string given in /var/www/html/buraconao/login.php on line 33
+[06-Sep-2016 15:33:13 America/Sao_Paulo] PHP Notice:  Undefined index: email in /var/www/html/buraconao/login.php on line 22
+[06-Sep-2016 15:33:34 America/Sao_Paulo] PHP Warning:  session_start() expects parameter 1 to be array, string given in /var/www/html/buraconao/login.php on line 33
+[06-Sep-2016 15:33:37 America/Sao_Paulo] PHP Notice:  Undefined index: email in /var/www/html/buraconao/login.php on line 22
+[06-Sep-2016 15:34:09 America/Sao_Paulo] PHP Notice:  Undefined index: email in /var/www/html/buraconao/login.php on line 22
+[06-Sep-2016 15:35:23 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/holeReport.php on line 22
+[06-Sep-2016 15:36:08 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/holeReport.php on line 22
+[06-Sep-2016 15:36:12 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/holeReport.php on line 22
+[06-Sep-2016 15:36:13 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/holeReport.php on line 22
+[06-Sep-2016 15:36:13 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/holeReport.php on line 22
+[06-Sep-2016 15:36:14 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/holeReport.php on line 22
+[06-Sep-2016 15:36:14 America/Sao_Paulo] PHP Notice:  Undefined variable: _SESSION in /var/www/html/buraconao/holeReport.php on line 22
+[06-Sep-2016 15:39:36 America/Sao_Paulo] PHP Warning:  session_start() expects parameter 1 to be array, string given in /var/www/html/buraconao/login.php on line 33
+[06-Sep-2016 15:40:52 America/Sao_Paulo] PHP Warning:  session_start() expects parameter 1 to be array, string given in /var/www/html/buraconao/login.php on line 33
+[06-Sep-2016 15:42:13 America/Sao_Paulo] PHP Warning:  session_start() expects parameter 1 to be array, integer given in /var/www/html/buraconao/login.php on line 33
+[06-Sep-2016 15:42:13 America/Sao_Paulo] PHP Warning:  session_start() expects parameter 1 to be array, integer given in /var/www/html/buraconao/index.php on line 57
+[06-Sep-2016 15:47:51 America/Sao_Paulo] PHP Warning:  include(index.php?msg=sucessoReport): failed to open stream: No such file or directory in /var/www/html/buraconao/mysqlConnect.php on line 120
+[06-Sep-2016 15:47:51 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'index.php?msg=sucessoReport' for inclusion (include_path='.:/usr/share/php') in /var/www/html/buraconao/mysqlConnect.php on line 120
+[08-Sep-2016 09:51:18 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}' in /var/www/html/buraconao/mysqlConnect.php on line 89
+[08-Sep-2016 10:49:59 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/mysqlConnect.php on line 14
+[08-Sep-2016 10:50:37 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/mysqlConnect.php on line 14
+[08-Sep-2016 10:51:52 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/mysqlConnect.php on line 14
+[08-Sep-2016 11:00:45 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/mysqlConnect.php on line 14
+[08-Sep-2016 11:00:51 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/mysqlConnect.php on line 14
+[08-Sep-2016 11:12:24 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/mysqlConnect.php on line 14
+[08-Sep-2016 11:12:37 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/mysqlConnect.php on line 14
+[08-Sep-2016 11:12:37 America/Sao_Paulo] PHP Notice:  Undefined index: radio in /var/www/html/buraconao/cadastraBuraco.php on line 24
+[08-Sep-2016 11:13:14 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/mysqlConnect.php on line 14
+[08-Sep-2016 11:16:56 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/mysqlConnect.php on line 14
+[08-Sep-2016 15:20:46 America/Sao_Paulo] PHP Notice:  Undefined index: senha in /var/www/html/buraconao/signup.php on line 27
+[08-Sep-2016 15:27:30 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/buraconao/signup.php on line 25
+[08-Sep-2016 15:39:20 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in /var/www/html/buraconao/index.php on line 26
+[08-Sep-2016 15:39:20 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/buraconao/index.php:149) in /var/www/html/buraconao/signup.php on line 35
+[08-Sep-2016 15:43:57 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/index.php on line 67
+[08-Sep-2016 15:43:57 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/index.php on line 67
+[08-Sep-2016 15:43:57 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/index.php on line 67
+[08-Sep-2016 15:43:57 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/index.php on line 67
+[08-Sep-2016 15:43:57 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/buraconao/index.php:149) in /var/www/html/buraconao/signup.php on line 35
+[08-Sep-2016 15:46:12 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/index.php on line 67
+[08-Sep-2016 15:46:12 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/index.php on line 67
+[08-Sep-2016 15:46:12 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/index.php on line 67
+[08-Sep-2016 15:46:12 America/Sao_Paulo] PHP Notice:  Undefined index: msg in /var/www/html/buraconao/index.php on line 67
+[08-Sep-2016 15:46:12 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/buraconao/index.php:149) in /var/www/html/buraconao/signup.php on line 35
+[08-Sep-2016 15:50:59 America/Sao_Paulo] PHP Warning:  include(index.php?msg=usuarioJaCadastrado): failed to open stream: No such file or directory in /var/www/html/buraconao/mysqlConnect.php on line 41
+[08-Sep-2016 15:50:59 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'index.php?msg=usuarioJaCadastrado' for inclusion (include_path='.:/usr/share/php') in /var/www/html/buraconao/mysqlConnect.php on line 41
+[28-Feb-2019 08:56:17 America/Sao_Paulo] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/html/crimemappingweb/mysqlOps.php on line 7
+[28-Feb-2019 08:56:17 America/Sao_Paulo] PHP Notice:  Undefined variable: email in /var/www/html/crimemappingweb/login.php on line 26
+[28-Feb-2019 08:56:17 America/Sao_Paulo] PHP Notice:  Undefined variable: password in /var/www/html/crimemappingweb/login.php on line 27
+[28-Feb-2019 08:56:17 America/Sao_Paulo] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/html/crimemappingweb/hash.php on line 3
