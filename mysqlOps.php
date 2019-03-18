@@ -64,9 +64,16 @@ Class bancoDeDados{
 		if ($mysqli->connect_errno) {
 			echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 		}else {
+			//insere os dados no banco de dados mysql
 			$consulta="INSERT INTO registro (lat,lng,grvd) VALUES ";
 			$consulta.="("."'".$latitude."'".","."'".$longitude."'".","."'".$gravidadeCrime."'".")";
 			$executar = $mysqli->query($consulta);
+
+			//Escrita no arquivo GeoJson para mostrar o mapa de calor com os pontos dos crimes inseridos
+		  require_once('editaArquivo.php');
+		  $editaArquivoJson = new editaJson();
+		  $editaArquivoJson::editaArquivoJson($latitude,$longitude,$gravidadeCrime);
+			
 			//redirecionar para inicio com mensagem de sucesso
 			header('location:index.php?msg=sucessoReport');
 		}

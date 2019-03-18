@@ -15,10 +15,6 @@ if ($latitude!="" && $longitude!="" && $gravidadeCrime!="") { //testa se as stri
   require_once('mysqlOps.php'); //chama a classe mysqlOps uma vez
   $bancoDeDados = new bancoDeDados(); //criação de um objeto do tipo banco de dados
   $bancoDeDados::inserirDados($latitude,$longitude,$gravidadeCrime);
-  //Escrita no arquivo GeoJson para mostrar o mapa de calor com os pontos dos crimes inseridos
-  require_once('editaArquivo.php');
-  $editaArquivoJson = new editaJson();
-  $editaArquivoJson::editaArquivoJson($latitude,$longitude,$gravidadeCrime);
 }else{
   header('location:crimeReport.php?msg=reportError'); // caso alguma string esteja vazia, redireciona para a pagina de registro com um aviso
 }

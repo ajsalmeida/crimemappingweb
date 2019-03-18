@@ -269,3 +269,28 @@ Stack trace:
 [28-Feb-2019 08:56:17 America/Sao_Paulo] PHP Notice:  Undefined variable: email in /var/www/html/crimemappingweb/login.php on line 26
 [28-Feb-2019 08:56:17 America/Sao_Paulo] PHP Notice:  Undefined variable: password in /var/www/html/crimemappingweb/login.php on line 27
 [28-Feb-2019 08:56:17 America/Sao_Paulo] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/html/crimemappingweb/hash.php on line 3
+[14-Mar-2019 10:45:24 America/Sao_Paulo] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/html/crimemappingweb/mysqlOps.php on line 7
+[14-Mar-2019 10:45:25 America/Sao_Paulo] PHP Notice:  Undefined variable: email in /var/www/html/crimemappingweb/login.php on line 26
+[14-Mar-2019 10:45:25 America/Sao_Paulo] PHP Notice:  Undefined variable: password in /var/www/html/crimemappingweb/login.php on line 27
+[14-Mar-2019 10:45:25 America/Sao_Paulo] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/html/crimemappingweb/hash.php on line 3
+[14-Mar-2019 10:46:04 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}' in /var/www/html/crimemappingweb/editaArquivo.php on line 27
+[14-Mar-2019 10:49:03 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}' in /var/www/html/crimemappingweb/editaArquivo.php on line 27
+[14-Mar-2019 10:49:22 America/Sao_Paulo] PHP Notice:  Undefined variable: myquery in /var/www/html/crimemappingweb/editaArquivo.php on line 19
+[14-Mar-2019 10:49:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /var/www/html/crimemappingweb/editaArquivo.php:19
+Stack trace:
+#0 /var/www/html/crimemappingweb/mysqlOps.php(75): editaJson::editaArquivoJson('-11.94458082745...', '-53.16406249998...', '3')
+#1 /var/www/html/crimemappingweb/getData.php(17): bancoDeDados::inserirDados('-11.94458082745...', '-53.16406249998...', '3')
+#2 {main}
+  thrown in /var/www/html/crimemappingweb/editaArquivo.php on line 19
+[14-Mar-2019 10:50:25 America/Sao_Paulo] PHP Warning:  fopen(JSON_data/coordenadas.geojson): failed to open stream: No such file or directory in /var/www/html/crimemappingweb/editaArquivo.php on line 7
+[14-Mar-2019 10:52:02 America/Sao_Paulo] PHP Warning:  fopen(JSON_data/coordenadas.geojson): failed to open stream: No such file or directory in /var/www/html/crimemappingweb/editaArquivo.php on line 7
+[14-Mar-2019 10:58:37 America/Sao_Paulo] PHP Warning:  fopen(JSON_data/coordenadas.geojson): failed to open stream: No such file or directory in /var/www/html/crimemappingweb/editaArquivo.php on line 6
+[14-Mar-2019 11:00:46 America/Sao_Paulo] PHP Warning:  fopen(JSON_data/coordenadas.geojson): failed to open stream: No such file or directory in /var/www/html/crimemappingweb/editaArquivo.php on line 10
+[14-Mar-2019 11:04:01 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '/' in /var/www/html/crimemappingweb/editaArquivo.php on line 10
+[14-Mar-2019 11:06:02 America/Sao_Paulo] PHP Warning:  fopen(JSON_data/coordenadas.geojson): failed to open stream: No such file or directory in /var/www/html/crimemappingweb/editaArquivo.php on line 6
+[14-Mar-2019 11:06:27 America/Sao_Paulo] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /var/www/html/crimemappingweb/editaArquivo.php on line 8
+[14-Mar-2019 11:09:04 America/Sao_Paulo] PHP Warning:  fopen(JSON_data/teste.geojson): failed to open stream: No such file or directory in /var/www/html/crimemappingweb/editaArquivo.php on line 6
+[14-Mar-2019 11:10:11 America/Sao_Paulo] PHP Warning:  fopen(teste.geojson): failed to open stream: Permission denied in /var/www/html/crimemappingweb/editaArquivo.php on line 6
+[14-Mar-2019 11:17:43 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ':' in /var/www/html/crimemappingweb/editaArquivo.php on line 5
+[14-Mar-2019 11:18:11 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ''"type"'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) in /var/www/html/crimemappingweb/editaArquivo.php on line 14
+[14-Mar-2019 11:41:16 America/Sao_Paulo] PHP Notice:  Undefined index: radio in /var/www/html/crimemappingweb/getData.php on line 12

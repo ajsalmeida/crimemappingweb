@@ -3,30 +3,26 @@
 //carregar arquivo JSON
 Class editaJson{
   public static function editaArquivoJson($latitude,$longitude,$gravidadeCrime){
-    //abre conexão com o mysql
-    $mysqli = new mysqli("localhost", "ajsalmeida", "qwert12345", "crimemappingweb");
-
-    if ($mysqli->connect_errno) {
-    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+    if ($editaArquivo=fopen('teste.geojson', 'w')) {
+      //gera string JSON OBS: está sem indetação por causa da formatação
+      $textoJSON='{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [';
+      //abrir conexão com o banco de dados e recuperar os registros
+      $textoJSON.='
+]
+}';
+      //Escreve a string no
+      fwrite($editaArquivo,$textoJSON);
+      fclose($editaArquivo);
     }
-    $mysqli = new mysqli("localhost", "ajsalmeida", "qwert12345", "crimemappingweb", 3306);
-    if ($mysqli->connect_errno) {
-      echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-    }else { //Lê o conteúdo da tabela no mysql
-      $consulta = "SELECT * FROM registro";
-      $result = $mysqli->query($consulta);
-      //escreve o conteúdo da tabela no arquivo geojson
-      while ($row = $myquery->fetch_assoc()) {
-        $latitude=$row["lat"];
-        $longitude=$row["lng"];
-        $gravidadeCrime=$row["grvd"];
-        echo $latitude;
-        echo $longitude;
-        echo $gravidadeCrime;
-        fopen('JSON_data/coordenadas.geojson', 'w')
-     }
+    else {
+      echo "Abertura de arquivo falhou";
+    }
+
+
 
   }
-}
 }
 ?>
