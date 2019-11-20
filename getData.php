@@ -1,4 +1,4 @@
-
+//Antonio José Almeida 2019 - CrimeMappingWeb
 <?php
 ini_set('display_errors', 1);
 ini_set('log_errors', 1);
